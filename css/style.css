@@ -1,6 +1,7 @@
-*{
+ *{
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif, "Roboto";
 }
 .bg{
     background-image: url(../img/programming-7649719_1280.jpg);
