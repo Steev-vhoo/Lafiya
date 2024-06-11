@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg{
+    background-image: url(../img/programming-7649719_1280.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.help-center{
+    display: flex;
+    justify-content: right;
+    gap: 25px;
+    margin: 20px 20px;
+    padding-top: 15px;
+}
+.help-center a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+margin: 20px 30px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.logo{
+    font-size: 36px;
+}
+span{
+    color: red;
+    font-style: bold;
+    font-size: 40px;
+}
+.contact-us{
+    border-radius: 10px;
+    padding: 12px 30px;
+    background: rgb(50, 50, 192);
+    border: none;
+}
+
+.tagline{
+    margin-left: 10%;
+    margin-right: 15%;
+   
+}
+.tagline h4{
+    font-size: 45px;
+}
+.tagline p{
+    font-size: 14;
+    margin-top: 3%;
+}
+.book4demo{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.book4demo a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid rgb(50, 50, 192) ;
+    padding: 12px 28px;
+    border-radius: 15px;
+}
