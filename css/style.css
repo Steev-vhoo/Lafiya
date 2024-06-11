@@ -13,53 +13,73 @@
     display: flex;
     justify-content: right;
     gap: 25px;
-    margin: 20px 20px;
+   margin-right: 25px;
     padding-top: 15px;
 }
 .help-center a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 14px;
 }
 .navbar{
 display: flex;
 justify-content: space-between;
-margin: 20px 30px;
+background-color: white;
+margin-top: 10px;
+height: 11%;
+padding-top: 10px;
+padding-bottom: 10px;
+
 }
 .navbar a{
-    color: white;
+    color:black;
     text-decoration: none;
+    width: 100%;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 15px 12px;
+    padding-top: 25px;
 }
 .logo{
-    font-size: 36px;
+    font-size: 46px;
+    margin-left: 20px;
+    padding-top: 10px;
 }
 span{
     color: red;
     font-style: bold;
     font-size: 40px;
 }
+
 .contact-us{
-    border-radius: 10px;
-    padding: 12px 30px;
-    background: rgb(50, 50, 192);
-    border: none;
+    margin-top: 25px;
 }
+
+.contact-us a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid rgb(50, 50, 192) ;
+    padding: 12px 28px;
+    border-radius: 15px;
+    background-color: rgb(50, 50, 192);
+}
+
 
 .tagline{
     margin-left: 10%;
     margin-right: 15%;
+    margin-top: 10%;
    
 }
 .tagline h4{
     font-size: 45px;
 }
 .tagline p{
-    font-size: 14;
+    font-size: 24px;
     margin-top: 3%;
 }
 .book4demo{
@@ -67,10 +87,11 @@ span{
     margin-top: 5%;
 }
 .book4demo a{
-    color: white;
+    color: rgb(50, 50, 192);
     text-decoration: none;
     font-size: 16px;
-    border: 2px solid rgb(50, 50, 192) ;
+    border: 2px solid white ;
     padding: 12px 28px;
     border-radius: 15px;
+    background-color: white;
 }
