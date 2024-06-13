@@ -16,3 +16,65 @@
     }, 2000)
   });
     </script>
+
+
+      <div>
+            <div class="carousel">
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+                <a class="carousel-item" href="#">
+                    <div class="car-content">
+                        <h5>jack</h5>
+                        <h6>web designer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus</p>
+                    </div>
+                </a>
+            </div>
+        </div>
