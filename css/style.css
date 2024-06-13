@@ -12,6 +12,25 @@
      color: white;
  }
 
+ h1 {
+     font-size: 70px;
+ }
+
+ /* h2{
+    font-size: 60px;
+ } */
+ h3 {
+     font-size: 35px;
+ }
+
+ h4 {
+     font-size: 22px;
+ }
+
+ h5 {
+     font-size: 14px;
+ }
+
  .help-center {
      display: flex;
      justify-content: right;
@@ -106,13 +125,27 @@
  }
 
  .book4demo a {
-     color: rgb(50, 50, 192);
+     color: black;
      text-decoration: none;
      font-size: 16px;
-     border: 2px solid white;
+     border: none;
      padding: 12px 28px;
      border-radius: 15px;
-     background-color: white;
+     background-color: #f8c954;
+ }
+
+ .mission {
+     margin-top: 5%;
+     text-align: center;
+ }
+
+ .mission h2 {
+     line-height: 1.3;
+ }
+
+ .mission p {
+     margin-top: 3%;
+     line-height: 2;
  }
 
  .kpi {
@@ -121,9 +154,9 @@
  }
 
  .accessible {
-     display: flex;
-     justify-content: space-between;
-     margin-top: 4%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 5%;
      gap: 4rem;
  }
 
@@ -133,15 +166,26 @@
  }
 
  .accessible p {
-     line-height: 1.5;
+     line-height: 2;
      margin-top: 15px;
+ }
+
+ .sign {
+     margin-top: 35px;
+
+ }
+
+ .sign a {
+     color: #f8c954;
+     font-weight: 500;
+     text-decoration: none;
  }
 
 
  .mental-health {
-     display: flex;
-     justify-content: space-between;
-     margin-top: 4%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 5%;
      gap: 4rem;
  }
 
@@ -151,14 +195,14 @@
  }
 
  .mental-health p {
-     line-height: 1.5;
+     line-height: 2;
      margin-top: 15px;
  }
 
  .omni {
-     display: flex;
-     justify-content: space-between;
-     margin-top: 4%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 5%;
      gap: 4rem;
  }
 
@@ -168,8 +212,18 @@
  }
 
  .omni p {
-     line-height: 1.5;
+     line-height: 2;
      margin-top: 15px;
+ }
+
+ .motto {
+     text-align: center;
+     margin-top: 5%;
+ }
+
+ .user-reviews {
+     margin-top: 5%;
+     text-align: center;
  }
 
 
@@ -218,7 +272,7 @@
  }
 
  .blog-left h3 {
-     font-size: 35px;
+     font-size: 30px;
      font-weight: 800;
      margin-bottom: 7px;
  }
@@ -228,8 +282,6 @@
      border-radius: 2px;
      font-size: 14px;
      font-weight: 600;
-     background: ;
-     color: ;
  }
 
  .blog-right h4 {
@@ -239,30 +291,62 @@
  }
 
  .blog-right p {
-     color: ;
+     color: gray;
      font-size: 14px;
+ }
+
+ .center-text h2 {
+     text-align: center;
  }
 
  /* Footer */
  .footer {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     /* display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, auto)); */
      align-items: center;
      gap: 1rem;
+     margin-top: 5%;
+     margin-left: 4%;
+     margin-right: 4%;
  }
 
- .footer-box.logo {
-     width: 170px;
-     max-width: 100%;
-     height: auto;
-     margin-bottom: 1rem;
+ .footer a {
+     text-decoration: none;
+     color: black;
+     
+ }
+ .footer-box-logo{
+    margin-bottom: 3%;
+    padding-bottom: 4%;
  }
 
- .footer-box h5 {
-     font-size: 18px;
+ .footer-box-logo.logo {
+     font-size: 46px;
+     
+ }
+
+ 
+
+.footer-box-logo h5 {
+     font-size: 22px;
      font-weight: 600;
      margin-bottom: 1.4rem;
      line-height: 1.3;
+     padding-left: 20px;
+ }
+
+ .footer-box-logo span {
+     color: red;
+     font-style: bold;
+     font-weight: 600;
+     font-size: 60px;
+     font-family: "Alex Brush", cursive;
+ }
+ .footer-box li{
+    list-style-type: none;
  }
 
  .icons i {
@@ -271,6 +355,7 @@
      margin-right: 10px;
      font-size: 24px;
      transition: all 0.7s ease;
+     padding-left: 10px;
  }
 
  .icons i:hover {
@@ -292,14 +377,14 @@
 
  .footer-box li a {
      display: block;
-     color: blue;
+     color: black;
      font-size: 14px;
      transition: all 0.6s ease;
  }
 
- .footer-box li a:hover {
+ .footer a:hover {
      transform: translateY(-6px);
-     color: blue;
+     color: #f8c954;
  }
 
  .copyright p {
@@ -323,4 +408,7 @@
      padding: 10px;
      border-radius: 10px;
 
+ }
+ .footer-box img{
+    width: 50%;
  }
