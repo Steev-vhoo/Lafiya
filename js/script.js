@@ -1,13 +1,18 @@
 const btn1 =document.getElementById("btn1");
 btn1.onclick =function() {
-    const name = prompt('Enter your full name');
-    document.getElementById('name').innerText = name;
+    
+        let text;
+        let person = prompt("Please enter your name: \nWnen would you like your demo", "John Doe");
+        if (person == null || person == "") {
+          text = "User cancelled the prompt.";
+        } else {
+          alert("Hello " + person + " Thank you!\n Demo Confirmed");
+        }
 }
 
 const btn =document.getElementById("btn");
 btn.onclick =function() {
-    const name = prompt('Enter your full name');
-    document.getElementById('name').innerText = name;
+    alert('CALL US ON 0559196426');
 }
 
 $(document).ready(function(){
