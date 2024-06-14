@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LafiyaX</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,27 +40,32 @@
             <a href="">Login</a>
         </div>
         <nav class="navbar">
-            <div class="logo">
-                <a href="index.html">Lafiya<span id="x">X</span></a>
+            <div class="w3-spin">
+                <div class="logo">
+                    <a href="index.html">Lafiya<span class="" id="x">X</span></a>
+                </div>
             </div>
-            <ul>
-                <li><a href="why.html">Why lafiya ?</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
+            <div class="navlist">
+                <ul>
+                    <li><a href="why.html">Why lafiya ?</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
             <div class="contact-us">
-                <a href="">Contact Us</a>
+                <a href="" id="btn">Contact Us</a>
             </div>
         </nav>
-        <div class="tagline">
-            <h1>Holistic tailored <br><span id="healthcare">healthcare for</span><br>everyone</h1>
-        </div>
-        <div class="book4demo">
-            <button>
-                <a href="">Book a demo</a>
-            </button>
-
+        <div class="w3-animate-left">
+            <div class="tagline">
+                <h1>Holistic tailored <br><span id="healthcare">healthcare for</span><br>everyone</h1>
+            </div>
+            <div class="book4demo">
+                <button id="btn1">
+                    <a href="">Book a demo</a>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -298,20 +304,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
     <script>
-        $(document).ready(function(){
-    $('.carousel').carousel({
-        indicators: true
-    });
-    setInterval(function(){
-        $('.carousel').carousel('next')
-    }, 2000)
-  });
+   
 
-  const btn = document.getElementById("btn");
-btn.onclick = function () {
-    alert('You clicked me');
-}
     </script>
 </body>
 

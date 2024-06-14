@@ -33,7 +33,7 @@
      background-color: white;
      margin-top: 10px;
      margin-bottom: 10px;
-     height: 11%;
+     height: 13%;
      padding-top: 10px;
      padding-bottom: 10px;
      width: 100%;
@@ -58,11 +58,18 @@
  .navbar ul li a{
     font-weight: 500;
     font-size: 16px;
+    margin: 0 30px;
+    padding: 2px 0;
+    display: inline-block;
+
  }
 
+
  .logo {
-     font-size: 46px;
+     font-size: 26px;
      margin-left: 20px;
+     align-content: center;
+     
      /* padding-top: 10px; */
  }
 
@@ -118,10 +125,14 @@
      color: black;
      text-decoration: none;
      font-size: 16px;
+     font-weight: 700;
      border: none;
      padding: 12px 28px;
      border-radius: 15px;
      background-color: #f8c954;
+ }
+ .book4demo a:hover{
+    background-color: white;
  }
 
  .mission {
@@ -176,10 +187,16 @@
  }
 
  .sign a {
-     color: #f8c954;
+     color: black;
      font-weight: 500;
      text-decoration: none;
+     border-bottom: 2px solid transparent;
+     transition: all 0.6s ease;
     
+ }
+ .sign a:hover{
+    color: #f8c954;
+    border-bottom: 2px solid #f8c954
  }
 
 
