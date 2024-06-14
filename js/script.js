@@ -4,7 +4,7 @@ btn1.onclick =function() {
         let text;
         let person = prompt("Please enter your name: \nWnen would you like your demo", "John Doe");
         if (person == null || person == "") {
-          text = "User cancelled the prompt.";
+          alert("User cancelled the prompt.");
         } else {
           alert("Hello " + person + " Thank you!\n Demo Confirmed");
         }
